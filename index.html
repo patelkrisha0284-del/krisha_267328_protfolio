@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Krisha Patel — Diploma IT student and aspiring web developer.">
+  <title>Krisha Patel | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">KP<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> DIPLOMA IT STUDENT · ASPIRING DEVELOPER</p>
+          <h1>Hi, I'm <span>Krisha Patel.</span></h1>
+          <p class="hero-lead">I enjoy turning ideas into clean, useful and engaging web experiences.</p>
+          <p class="muted">I'm learning front-end and back-end web development, and I'm excited to grow through real-world projects and collaboration.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+            <a class="button button-outline" href="#contact">Get in touch</a>
+          </div>
+          <div class="hero-meta"><span class="status-dot"></span> Based in Ahmedabad, Gujarat, India</div>
+        </div>
+        <div class="hero-visual">
+          <div class="portrait-frame"><img src="assets/krisha-profile.jpg" alt="Portrait of Krisha Patel"></div>
+          <div class="floating-note"><span class="note-icon">✦</span><span><strong>Always learning</strong><small>One project at a time</small></span></div>
+          <div class="visual-orbit"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container two-column">
+        <div>
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>Curious mind.<br><span class="accent-text">Creative approach.</span></h2>
+        </div>
+        <div class="about-content">
+          <p>I'm a Diploma in Information Technology student at Aditya Silver Oak University. I have a foundation in HTML, CSS and JavaScript, along with basic experience in Python (Django) and PHP.</p>
+          <p>I completed a 15-day learning internship at iBoon Technologies in June 2025. I'm looking for opportunities to learn more, contribute to practical work and build my development skills.</p>
+          <div class="education-card">
+            <span class="card-icon">▣</span>
+            <div><strong>Diploma in Information Technology</strong><small>Aditya Silver Oak University · Ahmedabad, Gujarat</small><small>Completed 5th semester</small></div>
+          </div>
+          <div class="education-card">
+            <span class="card-icon">↗</span>
+            <div><strong>Learning Internship</strong><small>iBoon Technologies · 1–15 June 2025</small><small>15 days</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT I WORK WITH</p>
+          <h2>My <span class="accent-text">skills</span></h2>
+          <p class="muted">Technologies I'm learning and using to build my projects.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-number">01</span><div class="skill-symbol">⌘</div><h3>HTML</h3><p>Semantic page structure and accessible content.</p><div class="skill-track"><span style="width:82%"></span></div></article>
+          <article class="skill-card"><span class="skill-number">02</span><div class="skill-symbol">✳</div><h3>CSS</h3><p>Responsive layouts, styling and interactions.</p><div class="skill-track"><span style="width:75%"></span></div></article>
+          <article class="skill-card"><span class="skill-number">03</span><div class="skill-symbol">JS</div><h3>JavaScript</h3><p>Basic scripting and interactive web features.</p><div class="skill-track"><span style="width:62%"></span></div></article>
+          <article class="skill-card"><span class="skill-number">04</span><div class="skill-symbol">Py</div><h3>Python / Django</h3><p>Basic back-end concepts and development.</p><div class="skill-track"><span style="width:48%"></span></div></article>
+          <article class="skill-card"><span class="skill-number">05</span><div class="skill-symbol">PHP</div><h3>PHP</h3><p>Foundational server-side programming.</p><div class="skill-track"><span style="width:42%"></span></div></article>
+        </div>
+        <div class="language-line"><strong>Languages</strong><span>English</span><span>Hindi</span><span>Gujarati</span></div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading section-heading-row">
+          <div><p class="eyebrow">SELECTED PRACTICE WORK</p><h2>Projects & <span class="accent-text">experiments</span></h2></div>
+          <p class="muted">A couple of starter projects that demonstrate my learning.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-art project-art-one"><div class="browser-bar"><i></i><i></i><i></i></div><div class="mock-portfolio"><span>KP.</span><b>Build.<br>Learn.<br>Grow.</b><small>MY PERSONAL SPACE</small></div></div>
+            <div class="project-info"><div class="project-topline"><span>01 / WEB DESIGN</span><span class="project-arrow">↗</span></div><h3>Personal Portfolio</h3><p>A responsive portfolio concept to introduce myself, highlight my skills and make it easy to get in touch.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art project-art-two"><div class="task-window"><div class="task-title">My tasks <span>＋</span></div><div class="task-item checked">✓ &nbsp; Plan the week</div><div class="task-item">○ &nbsp; Practise JavaScript</div><div class="task-item">○ &nbsp; Build a new idea</div><div class="task-progress"><span></span></div></div></div>
+            <div class="project-info"><div class="project-topline"><span>02 / JAVASCRIPT</span><span class="project-arrow">↗</span></div><h3>Simple Task List</h3><p>A small task-list app concept for adding tasks, marking them complete and practising DOM interactions.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+          </article>
+        </div>
+        <p class="project-disclaimer">These are practice-project examples included for this portfolio assignment. Replace them with your own completed projects when available.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Have an idea?<br><span class="accent-text">Let's talk.</span></h2>
+          <p class="muted">I'm interested in learning opportunities, internships and beginner-friendly projects.</p>
+          <div class="contact-details">
+            <a href="mailto:patelkrishao284@gmail.com"><span>✉</span> patelkrishao284@gmail.com</a>
+            <a href="tel:+919099535741"><span>☎</span> +91 90995 35741</a>
+            <p><span>⌖</span> Ahmedabad, Gujarat, India</p>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form" action="mailto:patelkrishao284@gmail.com" method="post" enctype="text/plain" novalidate>
+          <label for="name">Your name</label>
+          <input id="name" name="Name" type="text" placeholder="Enter your name" required>
+          <label for="email">Email address</label>
+          <input id="email" name="Email" type="email" placeholder="you@example.com" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="Message" rows="4" placeholder="Tell me a little about your idea..." required></textarea>
+          <p class="form-message" id="form-message" role="status" aria-live="polite"></p>
+          <button class="button button-primary submit-button" type="submit">Send message <span>↗</span></button>
+          <small class="form-note">This form checks your details and opens your email app to send the message.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="brand" href="#home">KP<span>.</span></a><p>Designed & built by Krisha Patel · <span id="year"></span></p><a href="#home" class="back-top">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
